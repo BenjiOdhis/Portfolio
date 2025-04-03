@@ -1,0 +1,461 @@
+:root {
+    --accent-color: #007acc;
+  }
+  
+.intro {
+    background-color: #222;
+    color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .profile-container {
+    flex: 0 0 auto;
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  
+  .text-box {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .text-box h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-box p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
+  #projects {
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    border-left: 5px solid #007acc;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #007acc;
+  }
+  
+  .project-card p {
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .project-card a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ✅ Bonus: Mobile Responsive Fix */
+  @media (max-width: 768px) {
+    .intro-content {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .text-box {
+      text-align: center;
+    }
+  }
+  #contact {
+    padding: 2rem 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+  
+  #contact-form button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #005fa3;
+  }
+  /* 🌗 Dark Mode Styling */
+body.dark {
+    background-color: #121212;
+    color: #e4e4e4;
+  }
+  
+  body.dark .intro {
+    background-color: #1e1e1e;
+  }
+  
+  body.dark .project-card {
+    background-color: #1a1a1a;
+    border-left-color: #3399ff;
+  }
+  
+  body.dark a {
+    color: #66ccff;
+  }
+  
+  body.dark #contact-form input,
+  body.dark #contact-form textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+  }
+  
+  body.dark #contact-form button {
+    background-color: #3399ff;
+  }
+  
+  body.dark #contact-form button:hover {
+    background-color: #227acc;
+  }
+  
+  /* Optional: Smooth transition when toggling */
+  body,
+  .project-card,
+  input,
+  textarea,
+  button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  /* 💫 Animate on Scroll */
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* 🖼 Profile Image Animation */
+.animate-img {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .animate-img.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+/* 🧩 Project Card Scroll Animation */
+.animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .cursor {
+    display: inline-block;
+    font-weight: bold;
+    color: #007acc;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  .animated-intro .hidden {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .animated-intro .visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.7s ease;
+  }
+  
+  .scroll-indicator {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #aaa;
+    animation: bounce 1.2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+  }
+  .project-card {
+    background: #f9f9f9;
+    border-left: 5px solid #007acc;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    perspective: 1000px;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 0 20px rgba(0, 122, 204, 0.4);
+    transform: scale(1.02) rotateX(3deg) rotateY(3deg);
+  }
+  .theme-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-btn:hover {
+    background-color: #005fa3;
+  }
+  
+  body.dark .theme-btn {
+    background-color: #3399ff;
+  }
+  
+  body.dark .theme-btn:hover {
+    background-color: #227acc;
+  }
+/* 📊 Skill Bars */
+.skill {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill span {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .skill-fill {
+    background-color: #007acc;
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    transition: width 1.2s ease-in-out;
+  }
+  
+  body.dark .skill-bar {
+    background-color: #2a2a2a;
+  }
+  
+  body.dark .skill-fill {
+    background-color: #3399ff;
+  }
+/* 🖼️ Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 8px;
+    position: relative;
+    color: #222;
+    animation: fadeIn 0.4s ease;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content .modal-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+  }
+  
+  .modal-content .modal-links a:hover {
+    background: #005fa3;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  body.dark .modal-content {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  body.dark .modal-content .modal-links a {
+    background-color: #3399ff;
+  }
+  
+  body.dark .modal-content .modal-links a:hover {
+    background-color: #227acc;
+  }
+/* 🚀 Page Load Fade-In */
+body.preload {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  body.loaded {
+    opacity: 1;
+  }
+/* 🎨 Custom Color Picker */
+.color-picker {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  #theme-color {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+  }
+  
+  body.dark .color-picker label {
+    color: #eee;
+  }
+  /* 📜 Timeline Styles */
+#timeline {
+    padding: 2rem 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-left: 40px;       /* increased */
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1.5rem;    /* adjusted */
+  }
+  
+  .timeline-item {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -26px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 0.3rem;
+  }
+  
+  .timeline-content h3 {
+    margin: 0.2rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  

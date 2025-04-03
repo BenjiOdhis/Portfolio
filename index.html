@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="preload">
+
+    <header class="intro animated-intro">
+        <div class="intro-content">
+          <div class="profile-container">
+            <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img animate-img" />
+          </div>
+          <div class="text-box">
+            <h1 id="hero-title"></h1>
+            <p id="hero-subtitle" class="hidden">Web Developer | Frontend Enthusiast | Tech Lover</p>
+            <button id="toggle-theme" class="theme-btn">Toggle Theme</button>
+            <div class="color-picker">
+                <label for="theme-color">🎨 Accent Color:</label>
+                <input type="color" id="theme-color" value="#007acc" />
+              </div>
+            <div class="scroll-indicator hidden">↓ Scroll down</div>
+          </div>
+        </div>
+      </header>
+      
+  <section id="about" class="animate">
+    <h2>About Me</h2>
+    <p><span id="typewriter-text"></span><span class="cursor">|</span></p>
+  </section>
+  <section id="skills" class="animate">
+    <h2>Skills</h2>
+    <div class="skill">
+      <span>HTML</span>
+      <div class="skill-bar"><div class="skill-fill" data-percent="90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="skill-bar"><div class="skill-fill" data-percent="80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="skill-bar"><div class="skill-fill" data-percent="85%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Git & GitHub</span>
+      <div class="skill-bar"><div class="skill-fill" data-percent="75%"></div></div>
+    </div>
+  </section>
+  
+  <section id="projects" class="animate">
+    <h2>Projects</h2>
+  
+    <div class="project-card animate" id="featured-project">
+        <h3>Task Tracker</h3>
+        <p>A simple to-do app with local storage and dynamic filtering.</p>
+        <button class="view-more-btn">View More</button>
+      </div>
+      
+  
+    <div class="project-card animate">
+      <h3>Portfolio Website</h3>
+      <p>This personal portfolio was built with HTML, CSS, and JavaScript only.</p>
+      <a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a>
+    </div>
+  
+    <div class="project-card animate">
+      <h3>Weather App</h3>
+      <p>A weather dashboard using the OpenWeatherMap API and vanilla JS.</p>
+      <a href="https://github.com/yourusername/weather-app" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+  <section id="timeline" class="animate">
+    <h2>My Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3>Discovered Web Development</h3>
+          <p>I started learning HTML, CSS, and JavaScript online through tutorials and small projects.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Built My First Portfolio</h3>
+          <p>Created my first personal website and shared it with friends and peers for feedback.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <h3>Hackathon Winner 🥇</h3>
+          <p>Won 1st place in a university hackathon by building a functional task tracker web app.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-content">
+          <h3>Current & Future</h3>
+          <p>Continuing to build, learn, and collaborate — aiming for internships and open-source work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="animate" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to connect, collaborate, or say hi — feel free to reach out using the form below.</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Task Tracker</h2>
+      <p>This is a detailed view of the Task Tracker project.</p>
+      <ul>
+        <li>✅ Built with: HTML, CSS, JavaScript</li>
+        <li>📦 Uses LocalStorage</li>
+        <li>🎯 Features task filtering, adding, deleting</li>
+      </ul>
+      <div class="modal-links">
+        <a href="https://github.com/yourusername/task-tracker" target="_blank">View on GitHub</a>
+        <a href="https://yourdemo.com/task-tracker" target="_blank">Live Demo</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
