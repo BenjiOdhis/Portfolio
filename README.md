@@ -1,66 +1,59 @@
-# 🚀 My Portfolio Website - A Digital Playground of Creativity & Code 🔥
+# Benjamin Odhiambo - Personal Portfolio 🌍
 
-## 🎨 Welcome to My Digital Space!
-Hey there! 👋 Welcome to my portfolio website, where **code meets creativity** and pixels turn into pure magic! ✨ This isn't just a portfolio; it's a **showcase of my journey, projects, and passion for software development**.
+Welcome to my personal developer portfolio!  
+This site showcases who I am, what I can do, and where I'm headed in my journey as a developer.
 
-Brace yourself for an experience filled with **sleek UI, smooth animations, and a tech-driven aesthetic**! 😎💻
-
-## [Click to visit the live portfolio](https://lewiii254.github.io/Portfolio/)
----
-
-## 🔥 What's Inside?
-My portfolio website is more than just a static page—it's a **living, breathing digital resume** that speaks for itself. Here’s what you’ll find:
-
-### 🌍 Home (The Grand Entrance)
-Step right into my world! The landing page welcomes you with **a modern and engaging UI**, setting the vibe for what's ahead.
-
-### 👨‍💻 About Me (The Real MVP)
-Get to know the person behind the code! A quick overview of who I am, what I do, and what makes me tick.
-
-### 🛠️ Projects (The Showcase)
-- A curated collection of my best projects! 🚀
-- Each project has **a brief description, live demo, and GitHub repo link**.
-- From web apps to full-stack projects—it's all here!
-
-### 📞 Contact Me (Let's Connect!)
-- Want to work together? Have an idea? Just wanna say hi? **Drop me a message!** 💌
-- Integrated **contact form + social media links** to reach me anytime, anywhere!
-- Your messages go straight into my database—because I take networking seriously! 😁
+## 🚀 Live Preview
+Just open `index.html` in your browser to view the portfolio locally.
 
 ---
 
-## 💡 Tech Stack (Powered by Awesomeness)
-Here’s the **magic combo** that fuels my portfolio:
-- **Frontend:** HTML5, CSS3, JavaScript,
-- **Version Control:** Git & GitHub, because teamwork makes the dream work! 🤝
+## 👨‍💻 About Me
+
+I'm **Benjamin Nehemia Odhiambo**, a passionate student pursuing **Computer Science** at **Meru University of Science and Technology**, with additional training from **Power Learn Project Academy**.
+
+I'm a:
+- Frontend enthusiast
+- Backend dev in the making
+- Web designer
+- Code explorer
 
 ---
 
-## 🚀 Features That Make This Portfolio Lit! 🔥
-- **Fully responsive & mobile-friendly** 📱💻
-- **Smooth animations & transitions** ✨
-- **Dark mode for night owls 🌙**
-- **SEO optimized** for better visibility 🔍
-- **Fast-loading & optimized performance** 🚀
-- **Interactive UI that makes browsing fun!**
+## 🛠️ Tech Stack
+
+| Tech           | Skill Level   |
+|----------------|----------------|
+| HTML           | ⭐⭐⭐⭐⭐          |
+| CSS            | ⭐⭐⭐⭐⭐          |
+| JavaScript     | ⭐⭐⭐            |
+| Python         | ⭐⭐⭐            |
+| C++            | ⭐⭐⭐            |
+| MongoDB        | ⭐⭐⭐            |
 
 ---
 
-## 🎯 Future Enhancements (Because Evolution Never Stops)
-- Implement **a blog section** to share my thoughts & experiences 📝
-- Add **more interactive elements** (because why not?!)
-- Integrate an **AI-powered chatbot** for quick Q&A 🤖
+## 💼 Portfolio Sections
+
+- **Home** – Introduction & animated skills  
+- **Education** – My academic background  
+- **Skills** – Both technical & professional  
+- **Interests** – A deep dive into what excites me  
+- **Projects** – _Coming soon!_ 🔨  
+- **Contact** – Send me a message directly  
 
 ---
 
-## 💖 Show Some Love!
-If you find my portfolio inspiring, feel free to **star this repo ⭐**, fork it, or give feedback! I’m always looking to improve. 🚀
+## 📬 Contact Me
 
-📢 **Let’s Connect:**
-- GitHub: [Your GitHub Handle]
-- Twitter: [Your Twitter Handle]
-- LinkedIn: [Your LinkedIn Handle]
-- Email: [Your Email]
+- GitHub: [BenjiOdhis](https://github.com/BenjiOdhis)
+- WhatsApp: [Click to chat](https://wa.me/25468690402)
+- Email: `nehemiahbenjamin7@gmail.com` (via form submission)
 
-⚡ Stay awesome & keep coding! 💻🔥😁
+---
 
+## 📌 How to Use
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/BenjiOdhis/portfolio.git

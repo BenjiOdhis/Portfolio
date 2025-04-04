@@ -11,14 +11,23 @@
     font-family: "Poppins", sans-serif;
 }
 /* referencing colors in variables as we are going to reuse them */
-:root{
-    --bg-color: #080808;
-    --second-bg-color: #131313;
-    --text-color:#f5f5f4;
-    --main-color: #00ffee;
-    --grn-color: #22c55e;
-    --red-color: #b91c1c;
-}
+:root {
+    --bg-color: #0e0e0e;         /* jet black */
+  --text-color: #f9f9f9;       /* white for main text */
+  --card-bg: #f3efe9;          /* cream for boxes/cards */
+  --accent-color: #e10600;     /* Porsche red */
+  --button-color: #e10600;     /* same as accent */
+  --heading-color: #ffffff;    /* clean white headings */
+  --border-color: #bcbcbc;     /* subtle silver */
+  --subtext-color: #bcbcbc;
+
+    --main-color: #e10600;    /* same as accent */
+--grn-color: #e10600;     /* align green references with Porsche red */
+--second-bg-color: #1a1a1a; /* optional: soft contrast background */
+
+  }
+  
+  
 
 html{
     font-size: 60%;
